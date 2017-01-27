@@ -1,6 +1,0 @@
-#Software: Microsoft Internet Information Services 7.5
-#Version: 1.0
-#Date: 2016-12-28 13:54:40
-#Fields: date time s-sitename s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
-2016-12-28 13:54:39 W3SVC1090993748 88.208.252.137 GET / - 80 - 91.157.103.192 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_12_2)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/55.0.2883.95+Safari/537.36 - - 403 14 0 1393 407 281
-2016-12-28 13:54:39 W3SVC1090993748 88.208.252.137 GET /favicon.ico - 80 - 91.157.103.192 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_12_2)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/55.0.2883.95+Safari/537.36 - http://teemusiltanen.com/ 404 0 2 1405 378 140
