@@ -1,0 +1,178 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+	color: #333333 !important;
+	font-family: Century Gothic, sans-serif !important;
+}
+
+/* Navbar */
+
+.navbar-default{
+	margin-top: 0px !important;
+	background-color: #000 !important;
+	color: #fff !important;
+}
+
+
+.navbar-right{
+	padding-right: 20px;
+}
+
+.navbar-default .navbar-nav>li>a#current{
+	color: #000;
+	background-color: #999;
+}
+
+.navbar-default .navbar-brand#current{
+	color: #000;
+	background-color: #999;
+}
+
+
+/* jumbtron */
+
+.jumbotron{
+	background: url("../images/north-caroline.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 100vh;
+	margin-bottom: 0 !important; 
+}
+
+.jumbotron img {	
+	max-width:100%;
+	max-height:100%;
+}
+.jumbotron h1{
+	font-size: 40px !important;
+	color: #fff !important;
+	text-align: center;
+	font-weight: 400 !important;
+}
+
+#timer{
+	display: none;
+}
+
+.jumbotron video{
+	display: block;
+	margin: 0 auto;
+}
+.jumbotron .container button#painike{
+	margin: 40px 0px 0px 100px;
+	font-size: 24px;
+}
+
+
+/* Main content */
+
+.main-content{
+/*	min-height: 1000px !important; */
+	width: auto;
+	margin-top: 0 !important;
+	background-color: #f3f3f3 !important;
+}
+
+/* Matkat */
+
+.container-fluid#berliini-gate{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.matkat h1{
+	padding: 30px 0px 30px 0px;
+	text-align: center;
+
+}
+.kuvakollaasi img:not(:first-child){
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid lightgrey;
+}
+#berliini-lapset-iso{
+	display: none;
+}
+
+#form{
+	width: 300px;
+    margin: 0 auto;
+}
+
+/* LOGIN PAGE */
+
+
+/* TABLETTI */
+
+@media (min-width: 768px) {
+	/* Navbar */
+
+.navbar-default{
+	opacity: 0.7;
+}
+
+/*.navbar-default:hover{
+	opacity: 0.7;
+}*/
+
+
+.jumbotron{
+	margin-top: -50px;
+}
+
+.jumbotron h1{
+	font-size: 45px !important;
+	font-weight: 400 !important;
+}
+
+.jumbotron h2{
+	font-size: 40px !important;
+	font-weight: 100 !important;
+}
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+	.jumbotron h1{
+		font-size: 50px !important;
+		font-weight: 400 !important;
+	}
+
+	.jumbotron h2{
+		font-size: 40px !important;
+		font-weight: 100 !important;
+	}
+	.jumbotron #painike{
+		font-size: 25px !important;
+	}
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	.jumbotron h1{
+		font-size: 60px !important;
+		font-weight: 400 !important;
+	}
+
+	.jumbotron h2{
+		font-size: 40px !important;
+		font-weight: 100 !important;
+	}
+	.jumbotron #painike{
+		font-size: 25px !important;
+	}
+}
