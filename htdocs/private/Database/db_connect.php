@@ -3,7 +3,7 @@ session_start();
 
 $servername = "213.171.200.91";
 $username = "teemusiltanencom";
-$password = "yno3YZ8&vC";
+$password = "??????????";
 $dbname = "teemusiltanencom";
 
 try {
