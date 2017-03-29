@@ -1,3 +1,4 @@
+<?php require('admin/wp-blog-header.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
